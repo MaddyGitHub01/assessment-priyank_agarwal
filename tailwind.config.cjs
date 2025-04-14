@@ -5,17 +5,16 @@ module.exports = {
   theme: {
     screens: {
       sm: { max: "600px" },
-      xs: { max: "425px" },
+      xs: { max: "375px" },
       m: { max: "800px" },
     },
     extend: {
       colors: {
         primary: "#444444",
         secondary: "#002B2B",
-        white:"#ffffff",
-        black:  "#000000",
-        green:"#005555",
-        light_green: "#F0F5F5",
+        white: "#ffffff",
+        black: "#000000",
+        green: "#005555",
       },
       spacing: {
         // add custom spacings (outside of tailwind)
